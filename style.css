@@ -23,10 +23,75 @@ body{
         text-align: center;
     }
 
-    #researchContainer{
+    .researchContainer{
         width: 100%;
         display: flex;
         align-items: center;
         justify-content: space-between;
     }
+
+    .researchContainer input{
+        border: 0;
+        outline: 0;
+        background: #ebfffc;
+        color: #555;    
+        padding: 10px 25px;
+        height: 60px;
+        border-radius: 30px;
+        flex: 1;
+        margin-right: 16px;
+        font-size: 18px;
+    }
+
+    .researchContainer button{
+        border: 0;
+        outline: 0;
+        background: #ebfffc;
+        border-radius: 50%;
+        width: 60px;
+        height: 60px;
+        cursor: pointer;
+    }
+
+    .researchContainer button img{
+        width: 16px;
+    }
+
+    .weatherImage{
+        margin: 25px 0;
+    }
+
+    .weatherInfos{
+        margin: 20px 0;
+    }
+
+    .weatherInfos h1{
+        font-size: 50px;
+        margin: 5px 0;
+    }
+
+    .weatherInfos p{
+        font-size: 40px;
+        margin: 0 0 50px;
+    }
+
+    .weatherDetails{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 20px;
+        margin: 10px 0;
+    }
+
+    .col{
+        display: flex;
+        align-items: center;
+        text-align: left;
+    }
+
+    .col img{
+        width: 40px;
+        margin-right: 10px;
+    }
+
 }
