@@ -10,28 +10,31 @@
 <body>
      <div id="cardContainer">
         <div class="researchContainer">
-            <input type="text" placeholder="Enter a city name" spellcheck="false">
-            <button><img src="./image/search.png" alt="a loop image"></button>
+            <input id="searchNavBar" type="text" placeholder="Enter a city name" spellcheck="false">
+            <button><img src="./images/search.png" alt="a loop image"></button>
+        </div>
+        <div class="error">
+            <p>Invalid city name</p>
         </div>
         <div class="weatherImage">
-            <img src="./image/clouds.png" alt="cloud image">
+            <img class="weatherIcon" src="./images/clouds.png" alt="cloud image">
         </div>
         <div class="weatherInfos">
-            <h1>22°C</h1>
-            <p>Paris</p>
+            <h1 class="temp"></h1>
+            <p class="city"></p>
         </div>
         <div class="weatherDetails">
             <div class="col">
-                <img src="./image/humidity.png" alt="humidity logo">
+                <img src="./images/humidity.png" alt="humidity logo">
                 <div>
-                    <p class="humidity">53%</p>
+                    <p class="humidity"></p>
                     <p>humidity</p>
                 </div>
             </div>
             <div class="col">
-                <img src="./image/wind.png" alt="wind logo">
+                <img src="./images/wind.png" alt="wind logo">
                 <div>
-                    <p class="windSpeed">5.66 km/h</p>
+                    <p class="windSpeed"></p>
                     <p>Wind Speed</p>
                 </div>
             </div>
